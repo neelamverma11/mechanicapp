@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mechanicapp/static/css/main.97d94cf2.chunk.css",
+    "main.js": "/mechanicapp/static/js/main.be304e51.chunk.js",
+    "main.js.map": "/mechanicapp/static/js/main.be304e51.chunk.js.map",
+    "runtime-main.js": "/mechanicapp/static/js/runtime-main.80d37962.js",
+    "runtime-main.js.map": "/mechanicapp/static/js/runtime-main.80d37962.js.map",
+    "static/css/2.8885c1cd.chunk.css": "/mechanicapp/static/css/2.8885c1cd.chunk.css",
+    "static/js/2.90289401.chunk.js": "/mechanicapp/static/js/2.90289401.chunk.js",
+    "static/js/2.90289401.chunk.js.map": "/mechanicapp/static/js/2.90289401.chunk.js.map",
+    "index.html": "/mechanicapp/index.html",
+    "static/css/2.8885c1cd.chunk.css.map": "/mechanicapp/static/css/2.8885c1cd.chunk.css.map",
+    "static/css/main.97d94cf2.chunk.css.map": "/mechanicapp/static/css/main.97d94cf2.chunk.css.map",
+    "static/js/2.90289401.chunk.js.LICENSE.txt": "/mechanicapp/static/js/2.90289401.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80d37962.js",
+    "static/css/2.8885c1cd.chunk.css",
+    "static/js/2.90289401.chunk.js",
+    "static/css/main.97d94cf2.chunk.css",
+    "static/js/main.be304e51.chunk.js"
+  ]
+}
