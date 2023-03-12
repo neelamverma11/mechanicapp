@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaAsymmetrik } from "react-icons/fa";
-import { trolleys } from "./Material/Trolleys";
 
 const Navbar = () => {
   return (

@@ -68,6 +68,7 @@ const CarouselPart = () => {
             className="carousel-control-prev"
             data-bs-target="#mySlider"
             data-bs-slide="prev"
+            href="#"
           >
             <span
               className="carousel-control-prev-icon"
@@ -79,6 +80,7 @@ const CarouselPart = () => {
             className="carousel-control-next"
             data-bs-target="#mySlider"
             data-bs-slide="next"
+            href="#"
           >
             <span
               className="carousel-control-next-icon"
