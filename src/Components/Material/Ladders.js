@@ -12,7 +12,7 @@ const Ladders = () => {
              height="330"
              src='/images/trol2.jpg'
              className='ml-5'
-             
+            alt=''
            />
          </div>
          <div class="product-content col-md-7 col-sm-7 m-5">
@@ -31,14 +31,14 @@ const Ladders = () => {
            <div class="hanor-btns-group">
              <a
                href="/contact/"
-               target="_blank"
+              
                className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
              >
                <span class="hanor-btn-text">Send Inquiry</span>
              </a>
              <a
                href="/contact/"
-               target="_blank"
+              
                className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
              >
                <span class="hanor-btn-text">Ask A Question</span>
@@ -55,7 +55,7 @@ const Ladders = () => {
                 height="330"
                 src='/images/trol1.jpg'
                 className='ml-5'
-                
+                alt=''
               />
             </div>
             <div class="product-content col-md-7 col-sm-7 m-5">
@@ -74,14 +74,14 @@ const Ladders = () => {
               <div class="hanor-btns-group">
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Send Inquiry</span>
                 </a>
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Ask A Question</span>
@@ -98,7 +98,7 @@ const Ladders = () => {
                 height="330"
                 src='/images/trol3.jpg'
                 className='ml-5'
-                
+                alt=''
               />
             </div>
             <div class="product-content col-md-7 col-sm-7 m-5">
@@ -117,14 +117,14 @@ const Ladders = () => {
               <div class="hanor-btns-group">
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Send Inquiry</span>
                 </a>
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Ask A Question</span>
@@ -141,7 +141,7 @@ const Ladders = () => {
                 height="330"
                 src='/images/trol4.jpg'
                 className='ml-5'
-                
+                alt=''
               />
             </div>
             <div class="product-content col-md-7 col-sm-7 m-5">
@@ -160,14 +160,14 @@ const Ladders = () => {
               <div class="hanor-btns-group">
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Send Inquiry</span>
                 </a>
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Ask A Question</span>
@@ -184,7 +184,7 @@ const Ladders = () => {
                 height="330"
                 src='/images/trol2.jpg'
                 className='ml-5'
-                
+                alt=''
               />
             </div>
             <div class="product-content col-md-7 col-sm-7 m-5">
@@ -203,14 +203,14 @@ const Ladders = () => {
               <div class="hanor-btns-group">
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Send Inquiry</span>
                 </a>
                 <a
                   href="/contact/"
-                  target="_blank"
+                 
                   className="btn btn-outline-warning btn-lg px-4 m-3 me-sm-3 fw-bold"
                 >
                   <span class="hanor-btn-text">Ask A Question</span>

@@ -10,7 +10,7 @@ import Services from './Components/Services';
 import Careers from './Components/Careers';
 import Vendors from './Components/Vendors';
 import Contact from './Components/Contact';
-import { Switch, Route, Redirect} from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Trolleys from './Components/Material/Trolleys';
 import Pallet from './Components/Material/Pallet';
 import Ladders from './Components/Material/Ladders';
@@ -22,13 +22,13 @@ import Conveyors from './Components/Material/Conveyors';
 
 function App() {
   return (
-    <>
-    <Navbar />
-    <Switch>
+    <container>
+      <Navbar />
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/material" component={Material} />
-        <Route exact path="/services" component={Services} /> 
+        <Route exact path="/services" component={Services} />
         <Route exact path="/careers" component={Careers} />
         <Route exact path="/vendors" component={Vendors} />
         <Route exact path="/contact" component={Contact} />
@@ -41,9 +41,9 @@ function App() {
         <Route exact path="/material/engineering/" component={Engineering} />
         <Route exact path="/material/conveyors/" component={Conveyors} />
         <Redirect to="/" />
-    </Switch>
-    <Footer />
-</>
+      </Switch>
+      <Footer />
+    </container>
   );
 }
 

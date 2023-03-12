@@ -5,7 +5,7 @@ import FooterPart from "./Home/FooterPart";
 const Contact = () => {
   return (
     <>
-      <div className="container-fluid mb-3">
+      <div className="container-fluid mb-5 mt-5">
         <div className="row">
           <div className="col-md-1 col-1"></div>
           <div className="col-md-5 col-5">

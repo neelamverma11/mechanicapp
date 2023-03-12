@@ -12,7 +12,7 @@ const Careers = () => {
   };
   return (
     <div>
-      <div className="container">
+      <div className="container mt-5 mb-5">
         <div className="row m-3">
           <div className="col-md-5">
             <h1 className="text-center">Apply Here!</h1>

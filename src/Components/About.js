@@ -4,7 +4,7 @@ import FooterPart from "./Home/FooterPart";
 const About = () => {
   return (
     <>
-      <div className="container-fluid vision">
+      <div className="container-fluid vision" style={{ margin: '4rem', width: '90%' }}>
         <div className="row">
           <h3 className="head text-center p-2">Ayur Engineering </h3>
           <p>

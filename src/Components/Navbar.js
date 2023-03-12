@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaAsymmetrik } from "react-icons/fa";
 import { trolleys } from "./Material/Trolleys";
 
@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar sticky-top bg-gradient navbar-expand-lg bg-dark navbar-dark">
-        <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/about/">
-            <FaAsymmetrik className="logo" />
-          </NavLink>
+        <div className="container-fluid" style={{ marginRight: '85px' }}>
+          <Link className="navbar-brand" to="/about/">
+            <FaAsymmetrik className="logo" style={{ marginLeft: '60px' }} />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink
+                <Link
                   activeClassName="menu_active"
                   exact
                   className="nav-link active"
@@ -34,120 +34,117 @@ const Navbar = () => {
                   to="/"
                 >
                   Home
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink
+                <Link
                   activeClassName="menu_active"
                   className="nav-link"
                   to="/about"
                 >
                   AboutUs
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <NavLink
+                <Link
                   className="nav-link dropdown-toggle hover-me"
                   to="/material/"
                   id="DropdownMenuLink"
                   data-bs-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"
+                  role="button"
                 >
                   Material Handling
-                </NavLink>
-                <ul
+                </Link>
+
+                <div
                   className="dropdown-menu sub-menu-2 "
                   aria-labelledby="DropdownMenuLink"
                 >
-                  <li>
-                    <NavLink className="dropdown-item" to="/material/trolleys/">
-                      industrial Trolleys
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="dropdown-item" to="/material/pallet/">
-                      Pallet
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="dropdown-item" to="/material/gratings/">
-                      Gratings
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/material/handrails/"
-                    >
-                      Handrails & Stairs
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/material/conveyors/"
-                    >
-                      Conveyors
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="dropdown-item" to="/material/ladders/">
-                      Ladders
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/material/engineering/"
-                    >
-                      Engineering Fabrication
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="dropdown-item"
-                      to="/material/industrial/"
-                    >
-                      Industrial Lifting Equipment
-                    </NavLink>
-                  </li>
-                </ul>
+
+                  <Link className="dropdown-item" to="/material/trolleys/">
+                    industrial Trolleys
+                  </Link>
+
+                  <Link className="dropdown-item" to="/material/pallet/">
+                    Pallet
+                  </Link>
+
+                  <Link className="dropdown-item" to="/material/gratings/">
+                    Gratings
+                  </Link>
+
+                  <Link
+                    className="dropdown-item"
+                    to="/material/handrails/"
+                  >
+                    Handrails & Stairs
+                  </Link>
+
+                  <Link
+                    className="dropdown-item"
+                    to="/material/conveyors/"
+                  >
+                    Conveyors
+                  </Link>
+
+                  <Link className="dropdown-item" to="/material/ladders/">
+                    Ladders
+                  </Link>
+
+                  <Link
+                    className="dropdown-item"
+                    to="/material/engineering/"
+                  >
+                    Engineering Fabrication
+                  </Link>
+
+                  <Link
+                    className="dropdown-item"
+                    to="/material/industrial/"
+                  >
+                    Industrial Lifting Equipment
+                  </Link>
+
+                </div>
               </li>
 
+
               <li className="nav-item">
-                <NavLink
+                <Link
                   activeClassName="menu_active"
                   className="nav-link"
                   to="/services"
                 >
                   Services
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink
+                <Link
                   activeClassName="menu_active"
                   className="nav-link"
                   to="/careers"
                 >
                   Careers
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink
+                <Link
                   activeClassName="menu_active"
                   className="nav-link"
                   to="/vendors"
                 >
                   Vendors
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink
+                <Link
                   activeClassName="menu_active"
                   className="nav-link"
                   to="/contact"
                 >
                   Contact
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </div>
